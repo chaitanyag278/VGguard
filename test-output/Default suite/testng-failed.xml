@@ -6,6 +6,7 @@
       <class name="Test.testclass">
         <methods>
           <include name="lauchDriver"/>
+          <include name="inspect"/>
         </methods>
       </class> <!-- Test.testclass -->
     </classes>
