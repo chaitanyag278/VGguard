@@ -22,6 +22,9 @@ public class testclass {
 
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(option);
+		option.addArguments("--headless");
+		option.addArguments("--no-sandbox");
+		option.addArguments("--disable-dev-shm-usage");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get("https://vguard.suneratech.com");
