@@ -20,7 +20,7 @@ public class testclass {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver(option);
 		driver.manage().window().maximize();
-		driver.get("http://vguard.suneratech.com");
+		driver.get("https://vguard.suneratech.com");
 	}
 @Test
 	public void logincredentials() throws Exception
