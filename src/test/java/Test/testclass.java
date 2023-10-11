@@ -49,5 +49,4 @@ public void inspect() throws InterruptedException
 	Thread.sleep(1000);
 	driver.findElement(By.xpath("//body/div[1]/aside[1]/section[1]/ul[1]/li[16]/ul[1]/li[1]/a[1]")).click();
 }
-
 }
